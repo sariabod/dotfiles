@@ -29,6 +29,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap <C-n> <C-d>
 nnoremap <space> gt 
 
 call plug#begin('~/.vim/plugged')
@@ -40,11 +41,11 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
-" Plug 'tmhedberg/SimpylFold'
 Plug 'davidhalter/jedi-vim'
 Plug 'mhinz/vim-startify'
 Plug 'mkitt/tabline.vim'
 Plug 'tomtom/tcomment_vim'
+Plug 'blueyed/vim-diminactive'
 
 call plug#end()
 
