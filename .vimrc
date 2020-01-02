@@ -11,6 +11,7 @@ set showmatch
 set pyxversion=3
 set encoding=utf-8
 set fileencoding=utf-8
+set backspace=indent,eol,start
 
 let python_highlight_all = 1
 let mapleader = ','
@@ -34,14 +35,9 @@ nnoremap <space> gt
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'nvie/vim-flake8'
-Plug 'w0rp/ale'
 Plug 'morhetz/gruvbox'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'vim-airline/vim-airline'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'tpope/vim-fugitive'
-Plug 'davidhalter/jedi-vim'
 Plug 'mhinz/vim-startify'
 Plug 'mkitt/tabline.vim'
 Plug 'tomtom/tcomment_vim'
@@ -49,9 +45,7 @@ Plug 'blueyed/vim-diminactive'
 
 call plug#end()
 
-
 colorscheme gruvbox
-syntax enable
 
 
 
